@@ -1,0 +1,87 @@
+<mat-card>
+    <mat-card-title>
+        <div *ngIf="!course">Ürün Ekle</div>
+        <div *ngIf="course">Ürün Güncelle</div>
+    </mat-card-title>
+    <mat-card-content>
+        <form [formGroup]="regiForm" (ngSubmit)="onSubmit(regiForm.value)" *ngIf="regiForm" >
+            <table class="table">
+                <tr>
+                    <td>
+                        <mat-form-field class="field">
+                            <input formControlName="Title" matInput name="Title" placeholder="Ürün İsmi">
+                        </mat-form-field>
+                        <mat-error>
+                            <span *ngIf="!regiForm.get('Title').valid && regiForm.get('Title').touched">
+                                    Lütfen Başlık Girin !!!
+                            </span>
+                         </mat-error>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <mat-form-field class="field">
+                            <textarea  formControlName="Description" matInput name="Description" matTextareaAutosize matAutosizeMinRows="2"
+                                matAutosizeMaxRows="5" placeholder="Açıklama"></textarea>
+                        </mat-form-field>
+                        <mat-error>
+                        <span *ngIf="!regiForm.get('Description').valid && regiForm.get('Description').touched">
+                                Lütfen Açıklama Girin !!!
+                        </span>
+                    </mat-error>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+
+                        <mat-form-field>
+                            <input type="number" formControlName="Price" matInput placeholder="Fiyat">
+                        </mat-form-field>
+                        <mat-error>
+                        <span *ngIf="!regiForm.get('Price').valid && regiForm.get('Price').touched">
+                                Lütfen Fiyat Girin !!!
+                        </span>
+                    </mat-error>
+
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+
+                        <mat-form-field class="field">
+                            <input matInput formControlName="UrlImage" placeholder="Resim URL">
+                        </mat-form-field>
+                        <mat-error>
+                        <span *ngIf="!regiForm.get('UrlImage').valid && regiForm.get('UrlImage').touched">
+                                Lütfen Resim URL'si girin !!!
+                        </span>
+                    </mat-error>
+
+                    </td>
+                </tr>
+                <tr>
+
+                    <td>
+                        <mat-form-field>
+                            <mat-select placeholder="Kategori Seçin" formControlName="Categorie">
+                                <mat-option>-- Birini Seçin --</mat-option>
+                                <mat-option *ngFor="let categorie of categories" [value]="categorie.key">{{categorie.label}}</mat-option>
+                            </mat-select>
+
+                        </mat-form-field>
+                        <mat-error>
+                                <span *ngIf="!regiForm.get('Categorie').valid && regiForm.get('Categorie').touched">
+                                        Lütfen Kategori Resmi Girin !!!
+                                </span>
+                        </mat-error>
+                    </td>
+                </tr>
+                <tr>
+                        <td  class="content-center">
+                            <button mat-raised-button [disabled]="!regiForm.valid" style="background-color: #ff6348;">Onayla</button>
+                        </td>
+                    </tr>
+            </table>
+        </form>
+    </mat-card-content>
+</mat-card>
