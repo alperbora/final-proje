@@ -1,0 +1,97 @@
+{
+  "categories" : {
+    "oyunlar" : {
+      "label" : " "
+    }
+  },
+  "courses" : {
+    "-MR5HfZgN4q2oqi8fvDn" : {
+      "categorie" : "oyunlar",
+      "description" : "The Witcher 3: Wild Hunt, CD Projekt RED tarafından geliştirilen, Warner Bros. Interactive Entertainment tarafından Kuzey Amerika'da, Namco Bandai Games tarafından ise Avrupa'da yayımcılığı yapılan üçüncü şahıs nişancı türü rol yapma oyunudur. Oyun 19 Mayıs 2015'te yayınlanmıştır.",
+      "price" : 120,
+      "title" : "The Witcher 3",
+      "urlImage" : "https://i.idefix.com/cache/600x600-0/originals/0000000709274-1.jpg"
+    },
+    "-MR5L8ftIFW_7qXWcNgE" : {
+      "categorie" : "oyunlar",
+      "description" : "Grand Theft Auto V, Rockstar North tarafından geliştirilen ve Rockstar Games tarafından yayımlanan açık uçlu  aksiyon-macera  tarzı video oyunu.  Grand Theft Auto serisinin yedinci ana oyunudur.  İlk olarak 17 Eylül 2013 tarihinde  PlayStation 3 ve Xbox 360 için \npiyasaya çıkmıştır.\n",
+      "price" : 150,
+      "title" : "Grand Theft Auto V",
+      "urlImage" : "https://productimages.hepsiburada.net/s/9/375/8920372379698.jpg"
+    },
+    "-MR5LbbbbUBsbwrryNC9" : {
+      "categorie" : "oyunlar",
+      "description" : "Counter-Strike: Global Offensive ya da bilinen kısa adıyla CS:GO, Valve ve Hidden Path Entertainment tarafından geliştirilen çevrimiçi birinci şahıs nişancı oyunudur. Counter-Strike serisinin dördüncü oyunudur.",
+      "price" : 90,
+      "title" : "Counter Strike Global Offensive",
+      "urlImage" : "https://i4.hurimg.com/i/hurriyet/75/750x422/58f095cb67b0a92a1035d530.jpg"
+    },
+    "-MR5LqUWgF-mtDFJoKYk" : {
+      "categorie" : "oyunlar",
+      "description" : "Black Desert Online, Koreli video oyunu geliştiricisi Pearl Abyss tarafından geliştirilen ve orijinal olarak 2015 yılında Microsoft Windows için yayınlanan, sanal alan odaklı fantastik, çok oyunculu bir çevrimiçi rol yapma oyunudur.",
+      "price" : 50,
+      "title" : "Black Desert Online Remastered",
+      "urlImage" : "https://mmoculture.com/wp-content/uploads/2020/03/Black-Desert-Online-image.png"
+    },
+    "-MR5M2Bo1E-_Q0Xvc6KC" : {
+      "categorie" : "oyunlar",
+      "description" : "Dark Souls III, FromSoftware tarafından geliştirilen ve PlayStation 4, Xbox One ve Microsoft Windows için Bandai Namco Entertainment tarafından yayınlanan bir aksiyon-rol yapma oyunudur. Souls serisinin dördüncü oyunudur ve Dark Souls serisinin üçüncü oyunudur.",
+      "price" : 90,
+      "title" : "Dark Souls III",
+      "urlImage" : "https://fanatical.imgix.net/product/original/4768f0e6-d9a0-4580-b361-efe3fa1696b2.jpg?auto=compress,format&w=400&fit=max"
+    },
+    "-MR5M8yOVg0i8TcX2Bot" : {
+      "categorie" : "oyunlar",
+      "description" : "Dark Souls II, FromSoftware tarafından Microsoft Windows, PlayStation 3 ve Xbox 360 için yapılmış bir aksiyon-rol yapma video oyunudur. Oyun, Souls serisinin üçüncü oyunudur. Oyun, zorluk derecesi ile birçok kişi tarafından iyi eleştiriler almıştır.",
+      "price" : 85,
+      "title" : "Dark Souls II",
+      "urlImage" : "https://cdn.cloudflare.steamstatic.com/steam/apps/236430/header.jpg?t=1588788015"
+    },
+    "-MR5MJuMWlTUxeU5XV21" : {
+      "categorie" : "oyunlar",
+      "description" : "Euro Truck Simulator 2, SCS Software tarafından çıkarılmış olan bir kamyon simülasyonudur. 19 Ekim 2012'de Microsoft Windows için çıkmış olan oyun günümüz Avrupa'sını temel almıştır. 13 Nisan 2013'te Linux, 29 Ocak 2015'te MacOS için yayınlanmıştır.",
+      "price" : 40,
+      "title" : "Euro Truck Simulator 2",
+      "urlImage" : "https://fanatical.imgix.net/product/original/d4a0921c-4978-446c-aac0-dbd594e933e3.jpg?auto=compress,format&w=400&fit=max"
+    }
+  },
+  "orders" : {
+    "-MRFT1MR7eRqFMQHON9s" : {
+      "dateCreated" : 1610889045251,
+      "items" : [ {
+        "categorie" : "oyunlar",
+        "description" : "Grand Theft Auto V, Rockstar North tarafından geliştirilen ve Rockstar Games tarafından yayımlanan açık uçlu  aksiyon-macera  tarzı video oyunu.  Grand Theft Auto serisinin yedinci ana oyunudur.  İlk olarak 17 Eylül 2013 tarihinde  PlayStation 3 ve Xbox 360 için \npiyasaya çıkmıştır.\n",
+        "key" : "-MR5L8ftIFW_7qXWcNgE",
+        "price" : 150,
+        "title" : "Grand Theft Auto V",
+        "urlImage" : "https://productimages.hepsiburada.net/s/9/375/8920372379698.jpg"
+      } ],
+      "paid" : true,
+      "total" : 150,
+      "userId" : "mZUPvJlnqkUoJgGfnJVG3qM62h73"
+    }
+  },
+  "shoppingCart" : {
+    "-MR06TVS-Nwzy0OHHPiA" : {
+      "items" : {
+        "-MR5HfZgN4q2oqi8fvDn" : {
+          "course" : {
+            "categorie" : "oyunlar",
+            "description" : "The Witcher 3: Wild Hunt, CD Projekt RED tarafından geliştirilen, Warner Bros. Interactive Entertainment tarafından Kuzey Amerika'da, Namco Bandai Games tarafından ise Avrupa'da yayımcılığı yapılan üçüncü şahıs nişancı türü rol yapma oyunudur. Oyun 19 Mayıs 2015'te yayınlanmıştır.",
+            "key" : "-MR5HfZgN4q2oqi8fvDn",
+            "price" : 120,
+            "title" : "The Witcher 3",
+            "urlImage" : "https://i.idefix.com/cache/600x600-0/originals/0000000709274-1.jpg"
+          }
+        }
+      }
+    }
+  },
+  "users" : {
+    "mZUPvJlnqkUoJgGfnJVG3qM62h73" : {
+      "email" : "alper.bora123@gmail.com",
+      "isAdmin" : true,
+      "name" : "Alper Bora"
+    }
+  }
+}
